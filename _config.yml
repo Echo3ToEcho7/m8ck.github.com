@@ -1,0 +1,32 @@
+safe:        true
+auto:        true
+server:      true
+baseurl:     /
+
+future:      true
+lsi:         false
+pygments:    true
+markdown:    rdiscount
+# permalink:   /:year/:month/:title/
+permalink: /:year/:month/:day/:title 
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+rdiscount:
+  extensions: [smart]
+
+exclude: ["README.md", "LICENSE.md", "TODO.md", ".rvmrc", ".rbenv-version", "Rakefile", ".DS_Store"]
+
+## Variables
+title : m8ck
+tagline: Web Developer and Gamer
+author :
+  name : m8ck
+  email : magnus.f.vadoy@gmail.com
+  github : m8ck
+  twitter : m8ck
+  feedburner : m8ck
+  
+production_url : http://m8ck.us.to

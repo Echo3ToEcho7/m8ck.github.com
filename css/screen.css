@@ -1,0 +1,105 @@
+/******************************
+/* Body styles 
+/******************************/
+body {
+	background: #fff;
+	color: #444;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+a {
+	text-decoration: underline;
+	color: #444;
+}
+a:hover {
+	text-decoration: none;
+}
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.clear {
+	clear: both;
+	float: none;
+}
+
+/******************************
+/* Header 
+/******************************/
+#header {
+	text-align: right;
+	font-size: 42px;
+	padding: 30px 0 15px 0;
+	margin: 0;
+}
+#header a {
+	text-decoration: none;
+}
+#header a:hover {
+	text-decoration: underline;
+}
+
+/******************************
+/* Post 
+/******************************/
+#post {}
+#post p {
+	line-height: 1.8em;
+}
+#entry-title {
+	border-bottom: 3px solid #eee;
+	padding: 5px 0;
+}
+#entry-date {
+	color: gray;
+}
+#post code {
+	border: 1px solid #ddd;
+    background: #eef;
+	width: 100%;
+    font-size: 14px;
+	font-family: Monospace;
+    padding: 0 .2em;
+}
+#post pre code {
+	border: none;
+	width: 100%;
+}
+
+/******************************
+/* Frontpage and related posts 
+/******************************/
+.posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.posts a {
+	text-decoration: none;
+}
+.posts a:hover {
+	text-decoration: underline;
+}
+.posts .date {
+	color: gray;
+}
+
+/******************************
+/* Footer 
+/******************************/
+#footer {
+	font-size: 12px;
+	margin: 12px 0 0 0;
+	padding: 12px 0 12px 0;
+	border-top: 3px solid #eee;
+	line-height: 1.5em;
+}
+#footer .grid {
+	width: 50%;
+	float: left;
+}
+#footer .right {
+	text-align: right;
+}
+#footer a {}

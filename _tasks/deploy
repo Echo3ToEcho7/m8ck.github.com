@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+rsync -avz --delete _site/ --rsh='ssh -p443' root@m8ck.us.to:/var/www/m8ck.us.to
