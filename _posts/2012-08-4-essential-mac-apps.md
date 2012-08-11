@@ -30,7 +30,7 @@ I have been a Spotify user for several years, and I'm really happy about it.
 ...
 
 
-### iTerm
+### iTerm2
 
 iTerm2 is a replacement for Terminal and the successor to iTerm. It does many things that the default Terminal don't do.
 
