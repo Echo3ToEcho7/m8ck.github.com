@@ -3,15 +3,14 @@ layout: post
 title: "A Short Tutorial on Bitcoin Mining"
 description: "A very short, but easy, tutorial to get you started with bitcoin mining"
 ---
-##Bitcoin
 First off all, if you don't know what [Bitcoin](http://en.wikipedia.org/wiki/Bitcoin) is, it's a decentralized electronic cash system that uses peer-to-peer networking, digital signatures and cryptographic proof so as to enable users to conduct irreversible transactions without relying on trust.
 
-##What is bitcoin mining?
+### What is bitcoin mining?
 Bitcoin mining is the process of securing transactions and committing them into the bitcoin public chain. It requires winning a kind of computational lottery where each hash you perform is like buying one ticket. The Bitcoin protocol currently permits the miner who generates a block to claim 50 bitcoins as well as any transaction fees for the transactions that miner chooses to include.
 
 The Bitcoin system uses the mining process to generate coins, secure transactions, and publish transactions.
 
-## How do I get started?
+### How do I get started?
 *Note: You will need a good GPU to start with bitcoin mining, CPU mining is pretty useless. [Here is a comparison off good GPU's for bitcoin mining.](https://en.bitcoin.it/wiki/Mining_hardware_comparison#Graphics_cards)*
 
 To start with bitcoin mining, you will need a bitcoin miner on your
