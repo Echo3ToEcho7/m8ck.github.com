@@ -21,7 +21,7 @@ exclude: ["README.md", "LICENSE.md", "TODO.md", ".rvmrc", ".rbenv-version", "Rak
 
 ## Variables
 title : m8ck
-tagline: Web Developer and Gamer
+tagline: Yet another weblog
 author :
   name : m8ck
   email : magnus.f.vadoy@gmail.com
