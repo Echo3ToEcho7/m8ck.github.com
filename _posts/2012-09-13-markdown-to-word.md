@@ -3,7 +3,7 @@ layout: post
 title: Convert Markdown to a Word Document
 ---
 
-## Using Pandoc
+### Using Pandoc
 
 Converting a Markdown file to a Word document with pandoc is really easy. All you need to do is to get [pandoc](http://johnmacfarlane.net/pandoc/) version 1.9 or higher, then:
     
@@ -11,6 +11,6 @@ Converting a Markdown file to a Word document with pandoc is really easy. All yo
     
 That will take the file myfile.txt and convert it to the Word document myfile.docx.
 
-## Using Google Docs
+### Using Google Docs
 
 If you don't want to install pandoc for some reason, you can also use Google Docs. Convert your Markdown file to HTML, then upload it to Google Docs, select the option for Google Docs to convert it to their format, then download it as a DOC file.

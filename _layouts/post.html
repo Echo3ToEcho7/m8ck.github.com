@@ -3,20 +3,20 @@ layout: layout
 ---
 
 <div class="content">
-	<article id="post">
-		<header id="entry-header">
-    		<h2 id="entry-title">{{ page.title }} <small></small></h2>
-			<div id="entry-date"></div>
-		</header>
-		
-		<iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe>
+	<article class="post single">
+  		<header>
+  			<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+  			<span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
+  		</header>
 		
     	{{ content }}
+		
+		<p><iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe></p>
 
   	</article>
 
 	<p id="related-posts">
-		<h2>Related Posts</h2>
+		<h3>Related Posts</h3>
 	  	{% for related in site.related_posts limit:5 %}
 		<ul>
 			<li><a href="{{ related.url }}/">
