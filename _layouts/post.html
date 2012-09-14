@@ -3,15 +3,15 @@ layout: layout
 ---
 
 <div class="content">
-	<article id="post">
-		<header id="entry-header">
-    		<h2 id="post-title">{{ page.title }}</h2>
-			<div id="entry-date"></div>
-		</header>
-		
-		<p><iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe></p>
+	<article class="post single">
+  		<header>
+  			<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+  			<span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
+  		</header>
 		
     	{{ content }}
+		
+		<p><iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe></p>
 
   	</article>
 

@@ -4,7 +4,7 @@
 body {
 	background: #fff;
 	color: #444;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
 a {
@@ -15,7 +15,7 @@ a:hover {
 	text-decoration: none;
 }
 #wrapper {
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
 	padding: 10px 0;
 }
@@ -54,9 +54,55 @@ h6 { font-size: 12px; }
 }
 
 /******************************
-/* Post 
+/* Post styling
 /******************************/
-#post {}
+
+.post {
+	margin: 40px 0;
+	padding: 0 0 30px 0;
+	
+	line-height: 1.5em;
+	border-bottom: 5px solid #eee;
+}
+.single {
+	padding: 0;
+}
+.post header {
+font-family: Georgia;
+}
+.post header h2 {
+	margin: 5px 0;
+}
+.post header h2 a {
+	text-decoration: none;
+	color: #000;
+	border-bottom: none;
+	font-size: 32px;
+	font-weight: 200;
+}
+.post header h2 a:hover {
+	border-bottom: none;
+}
+.post blockquote {
+background: #eee;
+margin: 20px;
+padding: 20px 30px;
+font-style: italic;
+}
+.post p a {
+	border-bottom: 1px dotted red;
+	color: red;
+	text-decoration: none;
+}
+.post a:hover {
+ border-bottom: 1px solid red;
+}
+.post pre code {
+	padding: 0 40px;
+}
+
+
+/*#post {}
 #post p {
 	line-height: 1.8em;
 }
@@ -84,12 +130,12 @@ h2#post-title {
 #post pre code {
 	border: none;
 	width: 100%;
-}
+}*/
 
 /******************************
 /* Frontpage and related posts 
 /******************************/
-.posts {
+/*.posts {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -102,10 +148,9 @@ h2#post-title {
 }
 .posts .date {
 	color: gray;
-}
+}*/
 
 #related-posts {
-	border-top: 3px solid #eee;
 	margin-bottom: 10px;
 }
 
