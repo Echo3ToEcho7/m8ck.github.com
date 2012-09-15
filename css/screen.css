@@ -4,7 +4,7 @@
 body {
 	background: #fff;
 	color: #222222;
-	font-family: "Droid Serif", Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Droid Serif", Georgia, Times, serif;
 	font-size: 15px;
 }
 a {
@@ -92,7 +92,11 @@ h6 { font-size: 12px; }
 
 	font-style: italic;
 	text-shadow: 1px 1px 1px #fff;
-	
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
 	margin: 20px;
 	padding: 20px 30px;
 }
@@ -125,7 +129,7 @@ h6 { font-size: 12px; }
 /******************************/
 
 #footer {
-	font-size: 12px;
+	font-size: 13px;
 	margin: 12px 0 0 0;
 	padding: 12px 0 12px 0;
 	border-top: 3px solid #eee;
