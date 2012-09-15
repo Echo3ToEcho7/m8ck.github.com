@@ -15,9 +15,9 @@ a:hover {
 	text-decoration: none;
 }
 #wrapper {
-	width: 650px;
+	width: 660px;
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 0;
 }
 .clear {
 	clear: both;
@@ -38,11 +38,22 @@ h6 { font-size: 12px; }
 	background: #444;
 	color: #fff;
 	padding: 30px;
-	margin: 20px 0 15px 0; 
+	margin: 0 0 20px 0; 
+}
+#masterhead nav {
+	margin: 18px 0 0 0;
+	text-align: right;
+	float: right;
+}
+#masterhead nav a {
+color: #fff;
+font-style italic;
 }
 #header {
 	text-align: left;
 	font-size: 42px;
+	float: left;
+	width: 100px;
 	margin: 0;
 }
 #header a {
@@ -106,7 +117,7 @@ h6 { font-size: 12px; }
 	text-decoration: none;
 }
 .post a:hover {
- border-bottom: 1px solid #b5190e;
+	border-bottom: 1px solid #b5190e;
 }
 .post pre {
 	padding: 10px 40px;
@@ -117,11 +128,30 @@ h6 { font-size: 12px; }
 }
 
 /******************************
-/* Related posts 
+/* Related posts
 /******************************/
 
 #related-posts {
 	margin-bottom: 10px;
+}
+
+/******************************
+/* Archive
+/******************************/
+
+.posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.posts a {
+	text-decoration: none;
+}
+.posts a:hover {
+	text-decoration: underline;
+}
+.posts .date {
+	color: gray;
 }
 
 /******************************
@@ -130,7 +160,7 @@ h6 { font-size: 12px; }
 
 #footer {
 	font-size: 13px;
-	margin: 12px 0 0 0;
+	margin: 20px 0 0 0;
 	padding: 12px 0 12px 0;
 	border-top: 3px solid #eee;
 	line-height: 1.5em;
