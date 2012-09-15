@@ -3,7 +3,7 @@
 /******************************/
 body {
 	background: #fff;
-	color: #444;
+	color: #222222;
 	font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -15,7 +15,7 @@ a:hover {
 	text-decoration: none;
 }
 #wrapper {
-	width: 800px;
+	width: 650px;
 	margin: 0 auto;
 	padding: 10px 0;
 }
@@ -24,6 +24,7 @@ a:hover {
 	float: none;
 }
 
+/*h1, h2, h3, h4, h5, h6 { font-weight: normal; }*/
 h1 { font-size: 22px; }
 h2 { font-size: 20px; }
 h3 { font-size: 18px; }
@@ -75,7 +76,7 @@ font-family: Georgia;
 }
 .post header h2 a {
 	text-decoration: none;
-	color: #000;
+	color: #444;
 	border-bottom: none;
 	font-size: 32px;
 	font-weight: 200;
@@ -83,19 +84,25 @@ font-family: Georgia;
 .post header h2 a:hover {
 	border-bottom: none;
 }
-.post blockquote {
-background: #eee;
-margin: 20px;
-padding: 20px 30px;
-font-style: italic;
+.post header .date {
+	color: gray;
+	font-style: italic;
 }
-.post p a {
-	border-bottom: 1px dotted red;
-	color: red;
+.post blockquote {
+	background: #D4D4D4;
+	color: #000;
+	text-shadow: 1px 1px 1px #fff;
+	margin: 20px;
+	padding: 20px 30px;
+	font-style: italic;
+}
+.post a {
+	border-bottom: 1px dotted #b5190e;
+	color: #b5190e;
 	text-decoration: none;
 }
 .post a:hover {
- border-bottom: 1px solid red;
+ border-bottom: 1px solid #b5190e;
 }
 .post pre code {
 	padding: 0 40px;
