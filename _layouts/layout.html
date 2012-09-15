@@ -6,6 +6,7 @@
 	<meta name="description" content="{{ page.description }}" />
 	<title>{{ page.title }}</title>
 	<link href="/css/normalize.css" rel="stylesheet" />
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" />
 	<link href="/css/screen.css" media="screen" rel="stylesheet" />
 	<link href="/css/pygments.css" media="screen" rel="stylesheet" />
 	<link rel="alternate"  href="http://feeds.feedburner.com/m8ck" type="application/rss+xml" title="RSS Feed"/>
@@ -13,18 +14,18 @@
 <body>
 	
 	<div id="wrapper">
+		
+		<header id="masterhead">
+
+			<h1 id="header"><a href="/">m8ck</a></h1>
+
+    </header>
     	
-    	<header id="masterhead">
-
-      		<h1 id="header"><a href="/">m8ck</a></h1>
-
-    	</header>
-    	
-    	<section>
-	
-      		{{ content }}
-
-    	</section>
+    <section>
+		
+			{{ content }}
+		
+		</section>
 
 		<footer id="footer">
 
@@ -43,6 +44,7 @@
 			<div class="clear"></div>
 		
 		</footer>	
+	
 	</div>
 	
 	<script>

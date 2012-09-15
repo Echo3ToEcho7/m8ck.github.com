@@ -4,8 +4,8 @@
 body {
 	background: #fff;
 	color: #222222;
-	font-family: Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-family: "Droid Serif", Georgia, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
 }
 a {
 	text-decoration: underline;
@@ -24,7 +24,6 @@ a:hover {
 	float: none;
 }
 
-/*h1, h2, h3, h4, h5, h6 { font-weight: normal; }*/
 h1 { font-size: 22px; }
 h2 { font-size: 20px; }
 h3 { font-size: 18px; }
@@ -39,7 +38,7 @@ h6 { font-size: 12px; }
 	background: #444;
 	color: #fff;
 	padding: 30px;
-	font-family: Georgia;
+	margin: 20px 0 15px 0; 
 }
 #header {
 	text-align: left;
@@ -68,11 +67,10 @@ h6 { font-size: 12px; }
 .single {
 	padding: 0;
 }
-.post header {
-	font-family: Georgia;
-}
+.post header {}
 .post header h2 {
 	margin: 5px 0;
+	font-weight: bold;
 }
 .post header h2 a {
 	text-decoration: none;
@@ -114,54 +112,9 @@ h6 { font-size: 12px; }
 	color: #000;
 }
 
-
-/*#post {}
-#post p {
-	line-height: 1.8em;
-}
-h2#post-title {
-	font-size: 30px;
-	font-family: Georgia;
-	font-style: normal;
-	margin: 30px 0 5px 0;
-}
-#entry-title {
-	border-bottom: 3px solid #eee;
-	padding: 5px 0;
-}
-#entry-date {
-	color: gray;
-}
-#post code {
-	border: 1px solid #ddd;
-    background: #eef;
-	width: 100%;
-    font-size: 14px;
-	font-family: Monospace;
-    padding: 0 .2em;
-}
-#post pre code {
-	border: none;
-	width: 100%;
-}*/
-
 /******************************
-/* Frontpage and related posts 
+/* Related posts 
 /******************************/
-/*.posts {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.posts a {
-	text-decoration: none;
-}
-.posts a:hover {
-	text-decoration: underline;
-}
-.posts .date {
-	color: gray;
-}*/
 
 #related-posts {
 	margin-bottom: 10px;
@@ -170,6 +123,7 @@ h2#post-title {
 /******************************
 /* Footer 
 /******************************/
+
 #footer {
 	font-size: 12px;
 	margin: 12px 0 0 0;
