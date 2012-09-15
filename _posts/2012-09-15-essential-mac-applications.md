@@ -23,22 +23,13 @@ I like to take notes, and for that I use nvALT. nvALT is a  [Notational Velocity
 
 I have been a Spotify user for several years, and I'm really happy about it.
 
-### [Skype](http://skype.com)
-
-Skype is a at the moment my default IM alongside with Facebook chat. It's not perfect, but it does what it does okay.
-
-
-### [iTerm2](http://www.iterm2.com/)
-
-iTerm2 is a replacement for Terminal and the successor to iTerm. It does many things that the default Terminal don't do.
-
 ### [Sublime Text 2](http://www.sublimetext.com/)
 
 I have just started using Sublime Text 2 as my default editor instead off [TextMate](http://macromates.com/). I don't know if it will be my default editor for a long time, or if I will go back to [TextMate](http://macromates.com/) again. Before I started using [TextMate](http://macromates.com/) and [Sublime Text](http://www.sublimetext.com/), [Coda](http://panic.com/coda) was my default editor/IDE.
 
-### [MacVim](https://github.com/b4winckler/macvim)
+### [iTerm2](http://www.iterm2.com/)
 
-Although Sublime Text 2 is my default editor and I love TextMate, I still like to use vim on a occasion.
+iTerm2 is a replacement for Terminal and the successor to iTerm. It does many things that the default Terminal don't do.
 
 ### [CodeKit](http://incident57.com/codekit/)
 
@@ -46,13 +37,21 @@ CodeKit helps you build websites faster and better. It process Less, Sass, Stylu
 
 If you are a web developer and don't want the hassle with the command line, then you should really get this application.
 
-### [Tower](http://www.git-tower.com/)
+### [Skype](http://skype.com)
 
-I mostly use git from the command line, but sometimes it is handy to have a GUI to control it from. And for that, Tower is probably the most efficient and powerful to use. 
+Skype is a at the moment my default IM alongside with Facebook chat. It's not perfect, but it does what it does okay.
+
+### [MacVim](https://github.com/b4winckler/macvim)
+
+Although Sublime Text 2 is my default editor and I love TextMate, I still like to use vim on a occasion.
 
 ### [Alfred](http://www.alfredapp.com/)
 
 Alfred is a application launcher and a quick way to different types of files, and also at the same time so much more! You can extend it with the [Powerpack](http://www.alfredapp.com/powerpack/) to make it do all types of things, like browse and play music from your iTunes library quickly or find and control all your files. If you want to increase your productivity, you really should get your hands on [Alfred](http://www.alfredapp.com/).
+
+### [Tower](http://www.git-tower.com/)
+
+I mostly use git from the command line, but sometimes it is handy to have a GUI to control it from. And for that, Tower is probably the most efficient and powerful to use. 
 
 ### [OmniGraphSketcher](http://www.omnigroup.com/products/omnigraphsketcher/)
 
