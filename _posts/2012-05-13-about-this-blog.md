@@ -11,14 +11,18 @@ So after I started using jekyll, I don't need any database server, because every
 
 So if I want to publish a new post, I simply do:
 
-	rake post title="Super awesome post"
-	
+{% highlight sh %}
+rake post title="Super awesome post"
+{% endhighlight %} 
+
 That will generate a new markdown file, which I then just edit with my desired editor and then do:
 
-	git add .
-	git commit -m "Added new content"
-	git push origin master
-	
+{% highlight sh %}
+git add .
+git commit -m "Added new content"
+git push origin master
+{% endhighlight %} 
+
 And that will push my new post over to my server and it will be live on the internet.
 
 I love this solution, it's so simple and it super lightweight, since all the web server will need do is just serving some static files, and not generating dynamic content in some scripting language and fetching content from a database server, like it would do if I used something like WordPress.

@@ -7,15 +7,10 @@ future:      true
 lsi:         false
 pygments:    true
 markdown:    rdiscount
-# permalink:   /:year/:month/:title/
-permalink: /:year/:month/:day/:title 
 
 source:      .
 destination: ./_site
 plugins:     ./_plugins
-
-rdiscount:
-  extensions: [smart]
 
 exclude: ["README.md", "LICENSE.md", "TODO.md", ".rvmrc", ".rbenv-version", "Rakefile", ".DS_Store"]
 

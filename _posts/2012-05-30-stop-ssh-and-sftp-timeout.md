@@ -7,6 +7,8 @@ tags: ["ssh"]
 ---
 Just add the following line to /etc/sshd_config (on the machine you’re SSHing into):
 
-	ClientAliveInterval 60
+{% highlight sh %}
+ClientAliveInterval 60
+{% endhighlight %}
 	
 Next time you SSH of SFTP you’ll be sending ‘keepalive’ packets every 60 seconds.
