@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "A Short Tutorial on Bitcoin Mining"
-description: "A very short, but easy, tutorial to get you started with bitcoin mining"
+title: A Short Tutorial on Bitcoin Mining
+description: A very short, but easy, tutorial to get you started with bitcoin mining
 ---
 First off all, if you don't know what [Bitcoin](http://en.wikipedia.org/wiki/Bitcoin) is, it's a decentralized electronic cash system that uses peer-to-peer networking, digital signatures and cryptographic proof so as to enable users to conduct irreversible transactions without relying on trust.
 

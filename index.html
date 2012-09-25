@@ -1,20 +1,18 @@
 ---
 layout: layout
-title: m8ck
-description: Personal blog about technology and web development
+title: m8ck - yet another weblog
+description: Personal weblog about technology and web development
 ---
 
-<div class="content">
-	{% for post in site.posts %}
-		<article class="post">
+{% for post in site.posts %}
+	<article class="post">
 
-      <header>
-      	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      	<span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
-      </header>
+		<header>
+      		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      		<span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+      	</header>
 
-      {{ post.content }}
+      	{{ post.content }}
 
-		</article>
-	{% endfor %}
-</div>
+	</article>
+{% endfor %}

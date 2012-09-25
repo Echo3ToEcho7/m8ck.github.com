@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Convert Markdown to a Word Document
+title: Convert Markdown to Word
+description: How to convert a markdown file into a fully useable Word Document
 ---
 
 ### Using Pandoc

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "About this blog"
-description: "Information about this blog and what is under the hood"
+title: About this blog
+description: How I setup this blog and what I use to run it
 ---
 So, I've just finished up setting up this brand new blog. Before I've always run a WordPress blog, but since WordPress is kind of over-kill with all it features that I don't need, I've decided to try something new, so this time I am running a static blog with [Jekyll](http://jekyllrb.com/).
 

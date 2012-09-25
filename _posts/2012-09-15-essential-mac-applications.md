@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Essential Mac Applications
+description: Essential Mac applications that I use everyday
 ---
 
 I was thinking about doing a clean install after upgrading to Mountain Lion, so I took the opportunity to go through my app folder and see what I really needed. In the process I put together this list of essential applications.
