@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="author" content="m8ck" />
-	<meta name="description" content="{{ page.description }}" />
+	{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
 	<title>{{ page.title }}</title>
 	<link href="/css/normalize.css" rel="stylesheet" />
 	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic" rel="stylesheet" />
@@ -31,7 +31,7 @@
 		
 		</section>
 
-		<iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe>
+		<!--<iframe src='http://anonymousads.com/a/1PVm54m8gJpA1yFVws7WijT88br4uyTiTk' scrolling='no' style='width:468px; height:60px; border:0px; padding:5pt'></iframe>-->
 
 		<footer id="footer">
 

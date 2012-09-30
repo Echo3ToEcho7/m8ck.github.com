@@ -35,9 +35,7 @@ h6 { font-size: 12px; }
 /* Header 
 /******************************/
 #masterhead {
-	background: #444;
-	color: #fff;
-	padding: 30px;
+	padding: 20px 0;
 	margin: 0 0 20px 0; 
 }
 #masterhead nav {
@@ -46,8 +44,7 @@ h6 { font-size: 12px; }
 	float: right;
 }
 #masterhead nav a {
-color: #fff;
-font-style italic;
+	font-style italic;
 }
 #header {
 	text-align: left;
@@ -58,7 +55,6 @@ font-style italic;
 }
 #header a {
 	text-decoration: none;
-	color: #fff;
 }
 #header a:hover {
 	text-decoration: underline;
@@ -69,11 +65,11 @@ font-style italic;
 /******************************/
 
 .post {
-	margin: 40px 0;
+	margin: 15px 0;
 	padding: 0 0 30px 0;
 	
 	line-height: 1.5em;
-	border-bottom: 5px solid #eee;
+	/*border-bottom: 5px solid #eee;*/
 }
 .single {
 	padding: 0;
@@ -81,17 +77,25 @@ font-style italic;
 .post header {}
 .post header h2 {
 	margin: 5px 0;
-	font-weight: bold;
+	font-weight: normal;
 }
 .post header h2 a {
 	text-decoration: none;
 	color: #222222;
 	border-bottom: none;
-	font-size: 32px;
-	font-weight: 200;
 }
 .post header h2 a:hover {
 	border-bottom: none;
+}
+.post header h2 a.link-post {
+	text-decoration: underline;
+	color: #b5190e;
+	border-bottom: none;
+	font-weight: 200;
+}
+.post header h3 {
+	margin: 5px 0;
+	font-weight: normal;
 }
 .post header .date {
 	color: gray;
@@ -100,10 +104,7 @@ font-style italic;
 .post blockquote {
 	background: #D4D4D4;
 	color: #000;
-
 	font-style: italic;
-	text-shadow: 1px 1px 1px #fff;
-
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -112,12 +113,11 @@ font-style italic;
 	padding: 20px 30px;
 }
 .post a {
-	border-bottom: 1px dotted #b5190e;
 	color: #b5190e;
 	text-decoration: none;
 }
 .post a:hover {
-	border-bottom: 1px solid #b5190e;
+	text-decoration: underline;
 }
 .post pre {
 	padding: 10px 40px;

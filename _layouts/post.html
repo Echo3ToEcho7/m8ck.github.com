@@ -5,7 +5,12 @@ layout: layout
 <div class="content">
 	<article class="post single">
   		<header>
-  			<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
+				
+				{% if page.link %}
+				  <h3>→ <a href="{{ page.link }}" class="link">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h3>
+				{% else %}
+				  <h2><a href="{{ page.url }}">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</a></h2>
+				{% endif %}
   			<span class="date">{{ page.date | date: "%B %e, %Y" }}</span>
   		</header>
 		
@@ -13,7 +18,7 @@ layout: layout
 
   	</article>
 	
-	<p id="related-posts">
+	<!--<p id="related-posts">
 		<h3>Related Posts</h3>
 	  	{% for related in site.related_posts limit:5 %}
 		<ul>
@@ -22,11 +27,6 @@ layout: layout
 			</a></li>
 		</ul>
 	  {% endfor %}
-	</p>
+	</p>-->
 	
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-	    var disqus_shortname = 'm8ck';(function(){var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
