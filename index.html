@@ -1,7 +1,7 @@
 ---
 layout: layout
 title: m8ck - yet another weblog
-description: Personal weblog about technology and web development
+description: Personal weblog about technology, productivity, web development, and everything in between
 ---
 
 {% for post in site.posts %}
@@ -14,7 +14,7 @@ description: Personal weblog about technology and web development
 			  {% else %}
 				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 				{% endif %}
-				<span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+				<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> – <a href="{{ post.url }}" class="permalink">#</a>
 				
 		</header>
 

@@ -103,7 +103,7 @@ h6 { font-size: 12px; }
 	border-bottom: none;
 }
 .post header a.link-post {
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: #b5190e;
 	border-bottom: none;
 	font-weight: 200;
@@ -115,6 +115,15 @@ h6 { font-size: 12px; }
 .post header .date {
 	color: gray;
 	font-style: italic;
+}
+.post header a.permalink {
+	font-style: italic;
+	font-family: Arial;
+	padding: 2px;
+}
+.post header a.permalink:hover {
+background: #b5190e;
+color: white;
 }
 .post blockquote {
 	background: #D4D4D4;
