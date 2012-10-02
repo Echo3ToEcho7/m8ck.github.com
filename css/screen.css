@@ -88,7 +88,9 @@ h6 { font-size: 12px; }
 .single {
 	padding: 0;
 }
-.post header {}
+.post header {
+	font-size: 14px;
+}
 .post header h2 {
 	font-size: 24px;
 	margin: 5px 0;
@@ -118,23 +120,20 @@ h6 { font-size: 12px; }
 }
 .post header a.permalink {
 	font-style: italic;
-	font-family: Arial;
-	padding: 2px;
+	padding: 0 2px;
 }
 .post header a.permalink:hover {
-background: #b5190e;
-color: white;
+	text-decoration: none;
 }
 .post blockquote {
-	background: #D4D4D4;
-	color: #000;
+	color: #696969;
+	border-left: 2px solid #D4D4D4;
+	
+	font-size: 14px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	/* font-style: italic; */
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	margin: 20px;
-	padding: 20px 30px;
+
+	margin: 20px 15px;
+	padding: 0 20px;
 }
 .post a {
 	color: #b5190e;
