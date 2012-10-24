@@ -14,11 +14,8 @@ plugins:     ./_plugins
 
 permalink: /:year/:month/:day/:title
 
-exclude: ["README.md", "LICENSE.md", "TODO.md", ".rvmrc", ".rbenv-version", "Rakefile", ".DS_Store"]
-
 ## Variables
 title : m8ck
-name : m8ck
 description : Yet another weblog about technology and web development 
 url : http://m8ck.us.to
 tagline : yet another weblog
