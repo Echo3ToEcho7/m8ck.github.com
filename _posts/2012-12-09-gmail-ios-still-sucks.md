@@ -5,4 +5,4 @@ link: http://iamnotaprogrammer.com/One-reason-gmail-ios-still-sucks.html
 date: 2012-12-09 21:37:22
 ---
 
-This is the exact reason why I still use the Mail.app on iOS.
+I know I´ve talked good about Gmail on iOS, and that it is a serious alternative to Apple Mail, but it still isn´t my default email client on iOS because of the problem mentioned in the post.
