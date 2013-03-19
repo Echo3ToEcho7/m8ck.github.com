@@ -4,7 +4,7 @@
 body {
 	background: #fff;
 	color: #222222;
-	font-family: "Droid Serif", Georgia, Times, serif;
+	font-family: "Muli", Helvetica, Arial, sans-serif;
 	font-size: 15px;
 }
 a {
@@ -30,6 +30,7 @@ h3 { font-size: 18px; }
 h4 { font-size: 16px; }
 h5 { font-size: 14px; }
 h6 { font-size: 12px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', Georgia, serif;}
 
 
 /******************************
@@ -80,10 +81,8 @@ h6 { font-size: 12px; }
 /******************************/
 
 .post {
-	padding: 10px 0 20px 0;
-	
-	line-height: 1.5em;
-	/*border-bottom: 5px solid #eee;*/
+	padding: 20px 0;	
+	line-height: 1.6em;
 }
 .single {
 	padding: 0;
@@ -128,10 +127,8 @@ h6 { font-size: 12px; }
 .post blockquote {
 	color: #696969;
 	border-left: 2px solid #D4D4D4;
-	
 	font-size: 14px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+	font-family: "Muli", Helvetica, Arial, sans-serif;
 	margin: 20px 15px;
 	padding: 0 20px;
 }
